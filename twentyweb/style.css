@@ -1,0 +1,270 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#hdr li,#hdr ul,#hdr h3{
+    display: inline-block;
+}
+#hdr ul{
+    float: right;
+    margin-top: -45px;
+}
+#hdr li{
+    margin: 20px;
+    padding: 9px;
+}
+#hdr{
+    font-size: 15px;
+}
+#hdr h3{
+    font-size: 15px;
+    margin: 0px;
+    color: white;
+    display: inline-block;
+    margin-top: 50px;
+    cursor: pointer;
+}
+#hdr span{
+    color: aliceblue;
+}
+#a1:hover{
+    border: 1px solid wheat;
+    transition: 2s;
+}
+#su{
+    width: 75px;
+    height: 15px;
+    padding: 9px;
+    text-align: center;
+    background-color: aquamarine;
+    color: aliceblue;
+    font-size: 20px;
+}
+#a1{
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+/* TWENTY section starts */
+#tw{
+    width: 14%;
+    margin: auto;
+    margin-top: 51px;
+    text-align: center;
+    padding: 53px;
+    height: 327px;
+    background-color: black;
+    opacity: 0.6;
+}
+#tw hr{
+    width: 254px;
+}
+#tw h1{
+    display: inline-block;
+    color: aliceblue;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    font-size: 50px;
+    margin: -4px;
+}
+
+#tw p{
+    color: aliceblue  ;
+    display: inline-block;
+    font-size: 19px;
+    letter-spacing: 2px;
+    line-height: 35px;
+}
+#tw span{
+    border-bottom: 1px dotted white;
+    cursor: pointer;
+}
+#tw button{
+    width: 254px;
+    height: 60px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-size: 17px;
+}
+#intro i{
+    font-size: 50px;
+    font-weight: 900;
+    color: #c9cdd0;
+    padding: 90px 10px 70px 10px;
+}
+#intro {
+    text-align: center;
+}
+#intro h2{
+    font-size: 30px;
+font-weight: 300;
+color:#7c8081;
+letter-spacing: 3px;
+}
+#intro p{
+    font-size: 20px;
+    color: #7c8081;
+    letter-spacing: 1px;
+    padding-bottom: 100px;
+}
+#icons{
+    padding-top: 1px;
+    width: 70%;
+    margin: auto;
+    background-color: #83d3c9;
+    color: #fffffc;
+}
+#icons p,#icons h2{
+text-align: left;
+margin-left: 100px;
+}
+#icons p{
+    font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+#icons ul,#icons li{         
+    display: inline-block;
+    font-size: 123px;
+    opacity: 0.5;
+}
+#icons ul{
+    margin-top: -350px;
+    margin-left: 900px;
+    margin-bottom: 100px;
+}
+#icons h2{
+    margin-top: 100px;
+    font-size: 28px;
+    letter-spacing: 4px;
+    line-height: 50px;
+    font-weight: 100;
+}
+#icons button{
+    position: absolute;
+    margin-top: -175px;
+    margin-left: 100px;
+    width: 250px;
+    height: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background: none;
+    border: 1px solid white;
+}
+#ab ul{
+    margin-left: 182px;
+}
+#ab ul,#ab li{
+    display: inline-block;
+    color: #c9cdd0;
+    margin-left: 68px;
+}
+#ab i{
+    font-size: 100px;
+    margin-left: 145px;
+}
+#ab h2{
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 21px;
+    color: black;
+}
+#ab p{
+    text-align: center;
+    font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 35px;
+    color: black;
+}
+/* stuff css starts */
+#stuff{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    background-color: #ffffff;
+}
+#stuff ul,#stuff li{
+    display: inline-block;
+    padding: 25px;
+}
+#stuff h1{
+    padding-top: 100px;
+    color: #7c8081;
+    font-weight: 100;
+    font-size: 32px;
+}
+#stuff img{
+    width: 550px;
+    height: 250px; 
+}
+#stuff button{
+    width: 300px;
+    height: 70px;
+    background: none;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 100px;
+    border: 1px solid black;
+}
+#stuff h2{
+    font-weight: 100;
+    color: #7c8081;
+}
+#stuff p{
+    font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+#btm{
+    color: white;
+    text-align: center;
+}
+#btm h1{
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+#btm p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+#btm button{
+    width: 300px;
+    height: 70px;
+    background: none;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 75px;
+    border: 1px solid white;
+    color: white;
+}
+#foter{
+    background-color: #e8eef4;
+    text-align: center;
+}
+#foter ul,#foter li{
+    display: inline-block;
+}
+#foter i{
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 21px;
+    color: white;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+#foter i:hover{
+    translate: 0px -10px;
+    transition: 0.25s;
+}
